@@ -1,0 +1,28 @@
+function setDepartmentFromCategory(executionContext) {
+    const formContext = executionContext.getFormContext();
+    const categoryAttr = formContext.getAttribute("pit_category");
+
+    if (categoryAttr && categoryAttr.getValue() !== null) {
+        const categoryLookup = categoryAttr.getValue()[0];
+
+        Xrm.WebApi.retrieveRecord("pit_issuecategory", categoryLookup.id, "?$select=_pit_department_value").then(
+            function success(result) {
+                if (result._pit_department_value) {
+                    const departmentLookup = [{
+                        id: result._pit_department_value,
+                        name: result["_pit_department_value@OData.Community.Display.V1.FormattedValue"],
+                        entityType: "pit_department"
+                    }];
+                    formContext.getAttribute("pit_department").setValue(departmentLookup);
+                } else {
+                    formContext.getAttribute("pit_department").setValue(null);
+                }
+            },
+            function error(error) {
+                console.error("Error retrieving department from category: ", error.message);
+            }
+        );
+    } else {
+        formContext.getAttribute("pit_department").setValue(null);
+    }
+}

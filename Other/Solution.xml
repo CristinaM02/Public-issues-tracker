@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25041.160" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25041.160" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25043.00186">
+  <SolutionManifest>
+    <UniqueName>public_issues_tracker</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Public issues tracker" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>pit</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="PIT" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>pit</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>89227</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="pit_comment" behavior="0" />
+      <RootComponent type="1" schemaName="pit_department" behavior="0" />
+      <RootComponent type="1" schemaName="pit_issue" behavior="0" />
+      <RootComponent type="1" schemaName="pit_issuecategory" behavior="0" />
+      <RootComponent type="1" schemaName="pit_new_issue" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="1" />
+      <RootComponent type="29" id="{5b85de07-5a27-f011-8c4d-7c1e5283aeb9}" behavior="0" />
+      <RootComponent type="29" id="{a3aad428-563e-4449-9ffc-1bd93b56674c}" behavior="0" />
+      <RootComponent type="300" schemaName="pit_issues_0b962" behavior="0" />
+      <RootComponent type="60" id="{dca791de-4527-f011-8c4e-6045bd95b40b}" behavior="0" />
+      <RootComponent type="61" schemaName="cr941_set_department" behavior="0" />
+      <RootComponent type="62" schemaName="pit_Publicissuestracker" behavior="0" />
+      <RootComponent type="80" schemaName="pit_Publicissuestracker" behavior="0" />
+      <RootComponent type="9" schemaName="pit_reportchannel" behavior="0" />
+      <RootComponent type="9" schemaName="pit_status" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="2" schemaName="systemmanagedusertype" displayName="System Managed User Type" parentSchemaName="systemuser" parentDisplayName="User" solution="AuthorizationCore (1.121.0.0)">
+          <package appName="Authorization Package" version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent type="26" schemaName="User Lookup View" displayName="User Lookup View" parentSchemaName="systemuser" parentDisplayName="User" id="{e88ca999-0b16-4ae9-b6a9-9edc840d42d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Power Pages Users" displayName="Power Pages Users" parentSchemaName="systemuser" parentDisplayName="User" solution="AuthorizationCore (1.121.0.0)" id="{1fe05f14-0074-49e3-b55d-0af1fd0a2b85}">
+          <package appName="Authorization Package" version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Department" id="{eae4e716-b818-4e26-a17d-3a35c356157e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Soft deleted Users" displayName="Soft deleted Users" parentSchemaName="systemuser" parentDisplayName="User" solution="AuthorizationCore (1.121.0.0)" id="{5fda842a-004b-42b4-a611-b93c2c69667e}">
+          <package appName="Authorization Package" version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Department" id="{eae4e716-b818-4e26-a17d-3a35c356157e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Stub Users" displayName="Stub Users" parentSchemaName="systemuser" parentDisplayName="User" solution="AuthorizationCore (1.121.0.0)" id="{490b1410-d231-46b0-b5fa-60017b21ab14}">
+          <package appName="Authorization Package" version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Department" id="{eae4e716-b818-4e26-a17d-3a35c356157e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Users deleted in tenant but exist in the environment" displayName="Users deleted in tenant but exist in the environment" parentSchemaName="systemuser" parentDisplayName="User" solution="AuthorizationCore (1.121.0.0)" id="{19487f2f-8405-4d59-8f8b-4eda98d4f302}">
+          <package appName="Authorization Package" version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Department" id="{eae4e716-b818-4e26-a17d-3a35c356157e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="pit_Publicissuestracker" displayName="Public issues tracker" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.12)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.17">PowerAppsAppFramework_Anchor (1.0.0.17)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=pit_Publicissuestracker,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="pit_Publicissuestracker" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

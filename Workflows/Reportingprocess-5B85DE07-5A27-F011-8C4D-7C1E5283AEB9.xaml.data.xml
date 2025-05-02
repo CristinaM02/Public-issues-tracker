@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{5b85de07-5a27-f011-8c4d-7c1e5283aeb9}" Name="Reporting process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Reportingprocess-5B85DE07-5A27-F011-8C4D-7C1E5283AEB9.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>pit_new_issue</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>pit_Issue</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Reporting process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{7d0f61c4-ff97-43b7-8c26-3d826378134d}">
+      <label languagecode="1033" description="New Issue" />
+    </steplabels>
+    <steplabels id="{3c1c11e6-8e21-4cfa-9f02-b502651019f6}">
+      <label languagecode="1033" description="Issue title" />
+    </steplabels>
+    <steplabels id="{fba96423-3c89-45b8-ae20-9ab76c14d058}">
+      <label languagecode="1033" description="Description" />
+    </steplabels>
+    <steplabels id="{691a6e58-3cc5-4931-a32e-eef875473a8c}">
+      <label languagecode="1033" description="Category" />
+    </steplabels>
+    <steplabels id="{385dadeb-2cd9-4335-b416-722010154caa}">
+      <label languagecode="1033" description="Area" />
+    </steplabels>
+    <steplabels id="{1b7447c5-51fa-420b-a8cf-431536dfc1b6}">
+      <label languagecode="1033" description="Report Channel" />
+    </steplabels>
+    <steplabels id="{d3e137ba-09aa-43d0-8694-802a669fe2bc}">
+      <label languagecode="1033" description="Assigned To" />
+    </steplabels>
+    <steplabels id="{bc387af9-bd75-4a40-a6f6-a53af44dbc6a}">
+      <label languagecode="1033" description="Due Date" />
+    </steplabels>
+    <steplabels id="{128864f0-2594-4264-b705-1a97828dff80}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{37442829-0c98-426d-8774-8c63458f94a3}">
+      <label languagecode="1033" description="In Progress" />
+    </steplabels>
+    <steplabels id="{987c3a5d-dc37-4d40-8f31-a0c30b50cb71}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+    <steplabels id="{670f07e5-8e70-4c90-b6bb-342cb9c2ceca}">
+      <label languagecode="1033" description="Finish Process" />
+    </steplabels>
+    <steplabels id="{ca695af7-1252-44eb-a336-644ee7b31456}">
+      <label languagecode="1033" description="Status" />
+    </steplabels>
+  </labels>
+</Workflow>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{062de758-03e4-4d87-852e-68ef6358f159}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pit_name" select="1" icon="1" preview="1">
+        <row name="result" id="pit_commentid">
+          <cell name="pit_commenttext" width="300" />
+          <cell name="createdby" width="136" />
+          <cell name="createdon" width="105" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pit_comment">
+          <attribute name="pit_commentid" />
+          <attribute name="pit_commenttext" />
+          <attribute name="createdby" />
+          <attribute name="createdon" />
+          <order attribute="createdon" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Comments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

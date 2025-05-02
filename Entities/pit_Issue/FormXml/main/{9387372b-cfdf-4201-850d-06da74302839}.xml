@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9387372b-cfdf-4201-850d-06da74302839}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false">
+      <tabs>
+        <tab verticallayout="true" id="{e513d26a-c8fc-40ea-87c9-3fa294511fc7}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{52cd3dd2-5768-4d93-977f-d5ebe4dd6e83}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c94d552a-305c-4ec8-8a3e-299ab3d414db}">
+                        <labels>
+                          <label description="Issue title" languagecode="1033" />
+                        </labels>
+                        <control id="pit_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pit_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a71ca153-459c-49b8-8290-4a71bd975af0}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e2445d5-4641-4271-813c-99bf0ef902a7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="pit_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="pit_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b03ed64-1d22-425b-be99-11dfde6101c2}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="pit_category" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pit_category" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ddd85660-2cdd-4f66-9dbc-65d9f660426c}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="pit_department" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pit_department" disabled="true">
+                          <parameters />
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82419f0d-0f7a-42eb-9dfd-a2182f912a35}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Area" languagecode="1033" />
+                        </labels>
+                        <control id="pit_area" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="pit_area" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d9ea1df-5db7-4ee7-a9b4-4969f1e91e6d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Report channel" languagecode="1033" />
+                        </labels>
+                        <control id="pit_reportchannel" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="pit_reportchannel" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="d5a2e697-19d0-4743-880d-cba4193510cd" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Status &amp; Assignment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{40d19fbe-3fa8-435b-b854-faa6bb69b3e7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3ab3415-75a3-4475-a192-3219c06429de}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="pit_status" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="pit_status" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35bfcea9-fd9a-4644-b369-07f50143fb27}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Assigned To" languagecode="1033" />
+                        </labels>
+                        <control id="pit_assignedto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pit_assignedto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a4c8cba-644e-4e23-b9d8-2358b6422a6b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="pit_duedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="pit_duedate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_4" id="dac954c8-c78a-4193-8d69-db26aa6f9221" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Comments" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5ac33e54-60fa-4f29-aba3-d3380310a9e3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{e7df143e-b3da-4878-91f8-69a301090578}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>pit_comment_Issue_pit_issue</RelationshipName>
+                            <TargetEntityType>pit_comment</TargetEntityType>
+                            <ViewId>{062de758-03e4-4d87-852e-68ef6358f159}</ViewId>
+                            <ViewIds>{062de758-03e4-4d87-852e-68ef6358f159}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="bc47cdcf-0fbb-4ec4-a077-6f76c84da908" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Attachments" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="c646187d-cc26-46dc-82ea-bd5eb73f14f7" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8420b453-6d98-4275-bf6e-2cd8358712b5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12ca3a67-f4b1-4985-8da8-a7a19f4f63c1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attachments" languagecode="1033" />
+                        </labels>
+                        <control id="pit_attachments" classid="{0A7FF475-B016-4687-9CE5-042BFDBD6519}" datafieldname="pit_attachments" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{89d368a1-15ac-48a1-98b9-940fbbdf01d3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2dce8d60-6160-45c6-8983-0ca25b4d42ed}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d3077fde-7a75-42fd-ada4-7a4ad4df6ffa}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e6fe3ba3-51ba-45c9-bee7-d86752724d61}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8fc87556-09eb-40bd-877e-68ac4d0a662c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d6e497ca-09fd-4d33-93ae-ab94859cda71}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{84fd1bbf-b0c6-42d6-9591-b9e9c7a25b95}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{bf193568-feb3-4b7c-9ea7-f7e26d1c07be}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="cr941_set_department" libraryUniqueId="{a1d9f527-5eb8-4db1-b98e-c8054f3955c1}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="pit_category">
+          <Handlers>
+            <Handler functionName="setDepartmentFromCategory" libraryName="cr941_set_department" handlerUniqueId="{e2b38a6b-8add-4dfc-84a6-24cde66350db}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

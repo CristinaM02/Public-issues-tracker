@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{187697c0-22e4-4a52-8640-aa16b521fece}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pit_depid" select="1" icon="1" preview="1">
+        <row name="result" id="pit_departmentid">
+          <cell name="pit_depid" width="146" />
+          <cell name="pit_manager" width="114" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pit_department">
+          <attribute name="pit_departmentid" />
+          <attribute name="pit_depid" />
+          <order attribute="pit_depid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="pit_manager" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Departments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

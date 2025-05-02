@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>pit_Publicissuestracker</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="pit_department" />
+    <AppModuleComponent type="1" schemaName="pit_issue" />
+    <AppModuleComponent type="1" schemaName="pit_issuecategory" />
+    <AppModuleComponent type="26" id="{18d8e667-7e5f-4795-9fbe-26b710bfc4b8}" />
+    <AppModuleComponent type="26" id="{063ae9f8-7786-4ddf-bdba-2ad08076beb6}" />
+    <AppModuleComponent type="26" id="{c78b600b-f1d4-4bd0-a72a-5cea1ef15652}" />
+    <AppModuleComponent type="26" id="{3e85f623-ed26-f011-8c4e-6045bd95b40b}" />
+    <AppModuleComponent type="26" id="{a3a55d3e-c07e-48f0-a649-637fa063c108}" />
+    <AppModuleComponent type="26" id="{d69ff893-ed26-f011-8c4d-7c1e527313ec}" />
+    <AppModuleComponent type="26" id="{2732ba43-bd3b-4272-9493-8ca8cbdc14ea}" />
+    <AppModuleComponent type="26" id="{de77d8a9-6766-4865-a739-a7b5a56cea9d}" />
+    <AppModuleComponent type="26" id="{187697c0-22e4-4a52-8640-aa16b521fece}" />
+    <AppModuleComponent type="26" id="{388657dc-6d64-4203-a0a9-ad1f13221599}" />
+    <AppModuleComponent type="26" id="{53393a92-a410-4008-a779-c1f982e9de1e}" />
+    <AppModuleComponent type="26" id="{200b7dff-1114-40a0-b6ff-d9815bf0b7af}" />
+    <AppModuleComponent type="26" id="{0f4fe4b7-9456-4700-9acc-ee64f28cbefd}" />
+    <AppModuleComponent type="26" id="{09c4206e-4db2-4adc-bdd6-f1669d15a91c}" />
+    <AppModuleComponent type="26" id="{77384557-f4f7-4340-9210-f31026b44523}" />
+    <AppModuleComponent type="26" id="{3d647041-5854-4c37-9f5d-fb0a8c078098}" />
+    <AppModuleComponent type="26" id="{aa63a5c1-138c-4daa-83f7-fc071adb5415}" />
+    <AppModuleComponent type="62" schemaName="pit_Publicissuestracker" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Public issues tracker" languagecode="1033" />
+  </LocalizedNames>
+  <appelements>
+    <appelement uniquename="pit_pit_Publicissuestracker_canvasappid_pit_issues_0b962">
+      <canvasappid>
+        <name>pit_issues_0b962</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>pit_pit_Publicissuestracker_canvasappid_pit_issues_0b962</name>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>
